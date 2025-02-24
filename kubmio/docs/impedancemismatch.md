@@ -1,6 +1,7 @@
 # Kubernetes / MinIO impedance mismatch.
 
 Each Kubmio resources has two instantiations:
+
 - Its k8s representation, as k8s object
 - Its Minio instantiation.
 
