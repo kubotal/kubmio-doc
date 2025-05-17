@@ -163,7 +163,7 @@ default     bucket1   kubmio      default   bucket1      READY                  
 ```
 
 > May be the word `bucket` is also used by another application. For such case, `kubmio` provide an alias: `mbucket` or
-`mbuckets`. Of course, you can also use the fully qualified name: `kubectl get buckets.kubmio.com`
+`mbuckets`. Of course, you can also use the fully qualified name: <br>`kubectl get buckets.kubmio.com`
 
 You can check this with the MinIO console, or the `mc` MinIO CLI (here `minio` is the alias of your server).
 

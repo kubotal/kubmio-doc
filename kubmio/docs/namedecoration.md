@@ -9,8 +9,7 @@ same name, in different namespace, resulting in clash on the MinIO server.
 
 Besides this, a MinIO server can be accessed by several Kubernetes cluster, thus allowing another level of name conflict.
 
-A namespaces are a way for several teams to works on a shared cluster in a fully isolated way, requiring them to
-coordinate about object naming would be a major drawback.
+Requiring several independent teams to coordinate about object naming would be complex and error prone. 
 
 To overcome this problem, Kubmio provide a mechanism of name decoration, allowing system administrators to define and
 enforce naming rules aimed to guaranty uniqueness of MinIO resource name.
